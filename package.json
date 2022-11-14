@@ -1,0 +1,29 @@
+{
+  "name": "@bpstore/vsc-plugin",
+  "version": "0.0.1",
+  "description": "boilerplate plugin for VScode IDE",
+  "main": "main.js",
+  "repository": "https://github.com/boilerplate-admin/vsc-plugin.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && cp ./package.json ./lib/ && cp ./README.md ./lib/ && cp ./LICENSE ./lib/"
+  },
+  "keywords": [
+    "vsc",
+    "ide",
+    "plugin",
+    "boilerplate",
+    "@boilerplate",
+    "bpstore",
+    "@bpstore"
+  ],
+  "author": "boilerplate-admin <info@doittechnology.pl> (https://www.en.doittechnology.pl)",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
